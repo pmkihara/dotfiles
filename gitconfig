@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = patricia.kihara@outlook.com
+	name = Patricia Kihara
