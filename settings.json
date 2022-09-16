@@ -1,6 +1,5 @@
 {
     "editor.detectIndentation": false,
-    "editor.formatOnPaste": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.insertSpaces": true,
@@ -14,7 +13,6 @@
     "editor.snippetSuggestions": "top",
     "editor.trimAutoWhitespace": true,
     "editor.useTabStops": true,
-    "editor.fontSize": 17,
     "editor.scrollBeyondLastLine": true,
     "editor.showFoldingControls": "always",
     "emmet.includeLanguages":
@@ -62,7 +60,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "[python]":
@@ -75,5 +72,11 @@
     {
         "rubocop": true
     },
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorCustomizations": {
+      // "editor.background": "#000000",
+    },
+    "editor.quickSuggestions": {
+      "other": "off"
+    },
 }
