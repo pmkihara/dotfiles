@@ -7,3 +7,17 @@ alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 
 # NOTE: On Q3 2021, Le Wagon decided to change the Web Dev curriculum default text editor
 alias stt="echo 'Launching VS Code instead of Sublime Text... (cf ~/.aliases)' && code ."
+
+# Docker aliases
+alias dcub="docker-compose up --build"
+
+# Yarn aliases
+alias ysb="yarn storybook"
+alias yapi="yarn api http://localhost:8000/playground\?format\=openapi"
+
+# Syntho's shortcuts
+alias s-fe="cd ~/code/syntho/syntho-engine-UI/"
+alias s-be="cd ~/code/syntho/syntho-engine-backend/"
+
+# Website's shortcut
+alias r-web="~/code/researchable/TF-general/TF-Landingpages/landingpage-v2/"
