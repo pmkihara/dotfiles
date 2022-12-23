@@ -10,7 +10,6 @@
         120
     ],
     "editor.renderControlCharacters": true,
-    "editor.snippetSuggestions": "top",
     "editor.trimAutoWhitespace": true,
     "editor.useTabStops": true,
     "editor.scrollBeyondLastLine": true,
@@ -73,10 +72,6 @@
         "rubocop": true
     },
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorCustomizations": {
-      // "editor.background": "#000000",
-    },
-    "editor.quickSuggestions": {
-      "other": "off"
-    },
+    "editor.quickSuggestionsDelay": 100,
+    "editor.snippetSuggestions": "top",
 }

@@ -8,16 +8,29 @@ alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 # NOTE: On Q3 2021, Le Wagon decided to change the Web Dev curriculum default text editor
 alias stt="echo 'Launching VS Code instead of Sublime Text... (cf ~/.aliases)' && code ."
 
+# Aditional git aliases
+alias gbpmk="gb --list 'feat*/pmk-*'"
+alias gsweep="git branch --merged main | grep -v 'main$' | xargs git branch -d"
+alias gsweep-dev="git branch --merged develop | grep -v 'develop$' | xargs git branch -d"
+
 # Docker aliases
 alias dcub="docker-compose up --build"
 
 # Yarn aliases
 alias ysb="yarn storybook"
 alias yapi="yarn api http://localhost:8000/playground\?format\=openapi"
+alias ylint="yarn lint && yarn format"
 
-# Syntho's shortcuts
+# Python aliases
+alias pylint="flake8 . && isort . && black ."
+
+# Shortcuts
 alias s-fe="cd ~/code/syntho/syntho-engine-UI/"
 alias s-be="cd ~/code/syntho/syntho-engine-backend/"
-
-# Website's shortcut
+alias s-cypress="~/code/syntho/syntho-engine-UI/scripts/cypress-int.sh"
+alias s-cy-run="cd ~/code/syntho/syntho-engine-UI/ && CYPRESS_BASE_URL=http://localhost:3000 cypress run -P tests/"
 alias r-web="~/code/researchable/TF-general/TF-Landingpages/landingpage-v2/"
+alias pmkihara="~/code/pmkihara"
+
+# Start Postgres
+alias postgres-start="sudo /etc/init.d/postgresql start"
