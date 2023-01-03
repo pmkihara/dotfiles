@@ -15,11 +15,13 @@ alias gsweep-dev="git branch --merged develop | grep -v 'develop$' | xargs git b
 
 # Docker aliases
 alias dcub="docker-compose up --build"
+alias dcu="docker-compose up"
 
 # Yarn aliases
 alias ysb="yarn storybook"
 alias yapi="yarn api http://localhost:8000/playground\?format\=openapi"
 alias ylint="yarn lint && yarn format"
+alias yjest="yarn jest --clearCache && yarn jest -u --silent --detectOpenHandles --forceExit"
 
 # Python aliases
 alias pylint="flake8 . && isort . && black ."

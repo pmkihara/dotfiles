@@ -74,4 +74,8 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.quickSuggestionsDelay": 100,
     "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Kanagawa",
+    "editor.fontSize": 12,
+    "editor.fontFamily": "JetBrains Mono",
+    "files.autoSave": "afterDelay",
 }
