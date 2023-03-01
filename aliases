@@ -36,3 +36,6 @@ alias pmkihara="~/code/pmkihara"
 
 # Start Postgres
 alias postgres-start="sudo /etc/init.d/postgresql start"
+
+# Git aliasis
+alias gversion="docker run --rm -v "$(pwd):/repo" gittools/gitversion:5.10.0 /repo"
