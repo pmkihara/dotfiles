@@ -25,6 +25,8 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.iconTheme": "vscode-great-icons",
     "files.hotExit": "off",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "files.exclude":
     {
@@ -81,6 +83,5 @@
     "typescript.preferences.quoteStyle": "single",
     "html.completion.attributeDefaultValue": "singlequotes",
     "terminal.integrated.fontSize": 12,
-    "explorer.confirmDragAndDrop": false,
-    "files.insertFinalNewline": true,
+    "explorer.confirmDragAndDrop": false
 }

@@ -22,9 +22,7 @@ runshell() { docker compose exec $1 /bin/sh; }
 
 # Yarn aliases
 alias ysb="yarn storybook"
-alias yapi="yarn api http://localhost:8000/playground\?format\=openapi"
 alias ylint="yarn lint && yarn format"
-alias yjest="yarn jest --clearCache && yarn jest -u --silent --detectOpenHandles --forceExit"
 
 # Python aliases
 alias pylint="flake8 . && isort . && black ."
