@@ -4,10 +4,11 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Load pyenv (to manage your Python versions)
-export PATH="${HOME}/.pyenv/bin:${PATH}" # Needed for Linux/WSL
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1 # https://github.com/pyenv/pyenv-virtualenv/issues/135
-type -a pyenv > /dev/null && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-init -)" && RPROMPT+=''
-# type -a pyenv > /dev/null && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-init -)" && RPROMPT+='[🐍 $(pyenv_prompt_info)]'
+eval "$(pyenv init --path)"
+# type -a pyenv > /dev/null && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-init - 2> /dev/null)"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
 plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search pyenv ssh-agent)
@@ -72,10 +73,12 @@ export BUNDLER_EDITOR=code
 export EDITOR=code
 
 # Set ipdb as the default Python debugger
-export PYTHONBREAKPOINT=ipdb.set_trace
+# export PYTHONBREAKPOINT=ipdb.set_trace
 
 # Start postgres from start
 # sudo /etc/init.d/postgresql start
 
 # Sets the browser for letter opener and capybara
-export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
+# export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
+
+

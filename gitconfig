@@ -52,3 +52,5 @@
 [user]
 	email = patricia.kihara@outlook.com
 	name = Patricia Kihara
+[submodule]
+	recurse = true

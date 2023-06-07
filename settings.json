@@ -1,6 +1,5 @@
 {
     "editor.detectIndentation": false,
-    "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
@@ -26,8 +25,6 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.iconTheme": "vscode-great-icons",
     "files.hotExit": "off",
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "files.exclude":
     {
@@ -77,5 +74,13 @@
     "workbench.colorTheme": "Kanagawa",
     "editor.fontSize": 12,
     "editor.fontFamily": "JetBrains Mono",
-    "files.autoSave": "afterDelay",
+    "ruby.intellisense": "rubyLocate",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.minimap.enabled": false,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "html.completion.attributeDefaultValue": "singlequotes",
+    "terminal.integrated.fontSize": 12,
+    "explorer.confirmDragAndDrop": false,
+    "files.insertFinalNewline": true,
 }
