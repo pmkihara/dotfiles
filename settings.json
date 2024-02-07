@@ -25,7 +25,6 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.iconTheme": "vscode-great-icons",
     "files.hotExit": "off",
-    "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "files.exclude":
@@ -68,13 +67,13 @@
     "python.formatting.provider": "yapf",
     "ruby.lint":
     {
+
         "rubocop": true
     },
     "workbench.startupEditor": "newUntitledFile",
     "editor.quickSuggestionsDelay": 100,
     "editor.snippetSuggestions": "top",
     "workbench.colorTheme": "Kanagawa",
-    "editor.fontSize": 12,
     "editor.fontFamily": "JetBrains Mono",
     "ruby.intellisense": "rubyLocate",
     "diffEditor.ignoreTrimWhitespace": false,
@@ -83,5 +82,11 @@
     "typescript.preferences.quoteStyle": "single",
     "html.completion.attributeDefaultValue": "singlequotes",
     "terminal.integrated.fontSize": 12,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.advanced.messages": {
+      "suppressLineUncommittedWarning": true
+    },
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 1
 }

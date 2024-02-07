@@ -28,16 +28,19 @@ alias ylint="yarn lint && yarn format"
 alias pylint="flake8 . && isort . && black ."
 
 # Shortcuts
-alias s-fe="cd ~/code/syntho/syntho-engine-UI/"
-alias s-be="cd ~/code/syntho/syntho-engine-backend/"
-alias s-cypress="~/code/syntho/syntho-engine-UI/scripts/cypress-int.sh"
-alias s-cy-run="cd ~/code/syntho/syntho-engine-UI/ && CYPRESS_BASE_URL=http://localhost:3000 cypress run -P tests/"
-alias r-web="~/code/researchable/TF-general/TF-Landingpages/landingpage-v2/"
+alias ddash="cd ~/code/researchable/projects/delta-dashboard/"
 alias pmkihara="~/code/pmkihara"
+alias protyon="cd ~/code/researchable/projects/protyon/"
+alias r-web="~/code/researchable/general/landingpages/landingpage-v2/"
+alias r-able="~/code/researchable"
+alias syntho="cd ~/code/syntho/"
 alias w-fe="cd ~/code/researchable/projects/wyzser/composer/base-frontend/"
 alias w-be="cd ~/code/researchable/projects/wyzser/composer/base-backend/"
-alias w-comp="cd ~/code/researchable/projects/wyzser/composer/"
+alias whyzser="cd ~/code/researchable/projects/wyzser/composer/"
 
 # Start Postgres
 alias pg-start="sudo /etc/init.d/postgresql start"
 alias pg-stop="sudo service postgresql stop"
+
+# Clear all terminal output
+alias clr="clear && printf '\e[3J'"
