@@ -9,7 +9,7 @@ alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 alias stt="echo 'Launching VS Code instead of Sublime Text... (cf ~/.aliases)' && code ."
 
 # Aditional git aliases
-alias gbpmk="gb --list 'feat*/pk-*'"
+alias gbpmk="gb --list '*/pk-*'"
 alias gsweep="git branch --merged main | grep -v 'main$' | xargs git branch -d"
 alias gsweep-dev="git branch --merged develop | grep -v 'develop$' | xargs git branch -d"
 alias glog="git log --graph --pretty=format:'%C(bold)%h%Creset%C(magenta)%d%Creset %s %C(yellow)<%an> %C(cyan)(%cr)%Creset' --abbrev-commit --date=relative"
@@ -28,15 +28,17 @@ alias ylint="yarn lint && yarn format"
 alias pylint="flake8 . && isort . && black ."
 
 # Shortcuts
-alias ddash="cd ~/code/researchable/projects/delta-dashboard/"
+alias ddash="~/code/researchable/projects/delta-dashboard/base-frontend"
+alias lww-current="~/code/pmkihara/lww/lww-1510"
 alias pmkihara="~/code/pmkihara"
-alias protyon="cd ~/code/researchable/projects/protyon/"
+alias protyon="~/code/researchable/projects/protyon/"
 alias r-web="~/code/researchable/general/landingpages/landingpage-v2/"
-alias r-able="~/code/researchable"
-alias syntho="cd ~/code/syntho/"
-alias w-fe="cd ~/code/researchable/projects/wyzser/composer/base-frontend/"
-alias w-be="cd ~/code/researchable/projects/wyzser/composer/base-backend/"
-alias whyzser="cd ~/code/researchable/projects/wyzser/composer/"
+alias researchable="~/code/researchable"
+alias sdv="~/code/researchable/projects/sport-data-valley/base-platform/"
+alias syntho="~/code/syntho/"
+alias w-fe="~/code/researchable/projects/wyzser/composer/base-frontend/"
+alias w-be="~/code/researchable/projects/wyzser/composer/base-backend/"
+alias whyzser="~/code/researchable/projects/wyzser/composer/"
 
 # Start Postgres
 alias pg-start="sudo /etc/init.d/postgresql start"

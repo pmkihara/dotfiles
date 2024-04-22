@@ -81,12 +81,11 @@
     "javascript.preferences.quoteStyle": "single",
     "typescript.preferences.quoteStyle": "single",
     "html.completion.attributeDefaultValue": "singlequotes",
-    "terminal.integrated.fontSize": 12,
     "explorer.confirmDragAndDrop": false,
     "gitlens.advanced.messages": {
       "suppressLineUncommittedWarning": true
     },
     "files.insertFinalNewline": true,
     "files.autoSave": "afterDelay",
-    "window.zoomLevel": 1
+    "comments.openView": "never"
 }
