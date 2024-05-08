@@ -29,7 +29,7 @@ alias pylint="flake8 . && isort . && black ."
 
 # Shortcuts
 alias ddash="~/code/researchable/projects/delta-dashboard/base-frontend"
-alias lww-current="~/code/pmkihara/lww/lww-1510"
+alias lww-current="~/code/pmkihara/lww/lww-1680"
 alias pmkihara="~/code/pmkihara"
 alias protyon="~/code/researchable/projects/protyon/"
 alias r-web="~/code/researchable/general/landingpages/landingpage-v2/"

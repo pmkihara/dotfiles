@@ -76,3 +76,8 @@ export EDITOR=code
 
 # Sets the browser for letter opener and capybara
 # export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
+
+# React Native config
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
