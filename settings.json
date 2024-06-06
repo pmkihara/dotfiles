@@ -63,17 +63,13 @@
     {
         "editor.tabSize": 4
     },
-    "python.pythonPath": "~/.pyenv/shims/python",
-    "python.formatting.provider": "yapf",
     "ruby.lint":
     {
-
         "rubocop": true
     },
     "workbench.startupEditor": "newUntitledFile",
     "editor.quickSuggestionsDelay": 100,
     "editor.snippetSuggestions": "top",
-    "workbench.colorTheme": "Kanagawa",
     "editor.fontFamily": "JetBrains Mono",
     "ruby.intellisense": "rubyLocate",
     "diffEditor.ignoreTrimWhitespace": false,
@@ -86,6 +82,10 @@
       "suppressLineUncommittedWarning": true
     },
     "files.insertFinalNewline": true,
-    "files.autoSave": "afterDelay",
-    "comments.openView": "never"
+    "comments.openView": "never",
+    "ruby.format": "rubocop",
+    "workbench.colorTheme": "Kanagawa",
+    "prisma.showPrismaDataPlatformNotification": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "files.autoSave": "afterDelay"
 }
