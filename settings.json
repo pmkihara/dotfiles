@@ -1,91 +1,100 @@
 {
-    "editor.detectIndentation": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
-    "editor.rulers":
-    [
-        80,
-        120
-    ],
-    "editor.renderControlCharacters": true,
-    "editor.trimAutoWhitespace": true,
-    "editor.useTabStops": true,
-    "editor.scrollBeyondLastLine": true,
-    "editor.showFoldingControls": "always",
-    "emmet.includeLanguages":
-    {
-        "erb": "html"
-    },
-    "emmet.triggerExpansionOnTab": true,
-    "explorer.confirmDelete": false,
-    "window.restoreWindows": "none",
-    "workbench.settings.editor": "json",
-    "workbench.settings.openDefaultSettings": true,
-    "workbench.settings.useSplitJSON": true,
-    "workbench.iconTheme": "vscode-great-icons",
-    "files.hotExit": "off",
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "files.exclude":
-    {
-        "**/.git": true,
-        "**/.DS_Store": true,
-        "node_modules": true,
-        "tmp": true,
-        "log": true,
-        ".asset-cache": true,
-        ".bundle": true,
-        ".ipynb_checkpoints": true,
-        ".pytest_cache": true,
-        ".sass-cache": true,
-        ".svn": true,
-        "__pycache__": true,
-        "_site": true,
-        "build": true,
-        "coverage": true,
-        "dist": true,
-        "public/packs": true,
-        "**/.egg-info": true
-    },
-    "files.watcherExclude":
-    {
-        "**/audits/**": true,
-        "**/coverage/**": true,
-        "**/log/**": true,
-        "**/node_modules/**": true,
-        "**/tmp/**": true,
-        "**/vendor/**": true
-    },
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "[python]":
-    {
-        "editor.tabSize": 4
-    },
-    "ruby.lint":
-    {
-        "rubocop": true
-    },
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.quickSuggestionsDelay": 100,
-    "editor.snippetSuggestions": "top",
-    "editor.fontFamily": "JetBrains Mono",
-    "ruby.intellisense": "rubyLocate",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.minimap.enabled": false,
-    "javascript.preferences.quoteStyle": "single",
-    "typescript.preferences.quoteStyle": "single",
-    "html.completion.attributeDefaultValue": "singlequotes",
-    "explorer.confirmDragAndDrop": false,
-    "gitlens.advanced.messages": {
-      "suppressLineUncommittedWarning": true
-    },
-    "files.insertFinalNewline": true,
-    "comments.openView": "never",
-    "ruby.format": "rubocop",
-    "workbench.colorTheme": "Kanagawa",
-    "prisma.showPrismaDataPlatformNotification": false,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "files.autoSave": "afterDelay"
+  "editor.detectIndentation": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 120],
+  "editor.renderControlCharacters": true,
+  "editor.trimAutoWhitespace": true,
+  "editor.useTabStops": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.showFoldingControls": "always",
+  "emmet.includeLanguages": {
+    "erb": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDelete": false,
+  "window.restoreWindows": "none",
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.settings.useSplitJSON": true,
+  "workbench.iconTheme": "vscode-great-icons",
+  "files.hotExit": "off",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "node_modules": true,
+    "tmp": true,
+    "log": true,
+    ".asset-cache": true,
+    ".bundle": true,
+    ".ipynb_checkpoints": true,
+    ".pytest_cache": true,
+    ".sass-cache": true,
+    ".svn": true,
+    "__pycache__": true,
+    "_site": true,
+    "build": true,
+    "coverage": true,
+    "dist": true,
+    "public/packs": true,
+    "**/.egg-info": true
+  },
+  "files.watcherExclude": {
+    "**/audits/**": true,
+    "**/coverage/**": true,
+    "**/log/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/vendor/**": true
+  },
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.quickSuggestionsDelay": 100,
+  "editor.snippetSuggestions": "top",
+  "editor.fontFamily": "JetBrains Mono",
+  "ruby.intellisense": "rubyLocate",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.minimap.enabled": false,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "files.insertFinalNewline": true,
+  "comments.openView": "never",
+  "ruby.format": "rubocop",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "typescript.format.semicolons": "remove",
+  "github.copilot.chat.useProjectTemplates": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "workbench.colorTheme": "Kanagawa",
+  "gitlens.outputLevel": "off",
+  "[ruby]": {
+    "editor.defaultFormatter": "rebornix.ruby"
+  },
+  "window.commandCenter": false,
+  "files.autoSave": "afterDelay",
+  // "editor.formatOnSave": true
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4
+  }
 }

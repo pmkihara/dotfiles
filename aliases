@@ -28,17 +28,20 @@ alias ylint="yarn lint && yarn format"
 alias pylint="flake8 . && isort . && black ."
 
 # Shortcuts
-alias ddash="~/code/researchable/projects/delta-dashboard/base-frontend"
-alias lww-current="~/code/pmkihara/lww/lww-1680"
+alias lww-current="~/code/pmkihara/lww/lww-1780"
 alias pmkihara="~/code/pmkihara"
+alias native-social-media="~/code/pmkihara/react-native-course/ReactNativeSocialMedia"
+
+# Project shortcuts
+alias ddash="~/code/researchable/projects/delta-dashboard/base-frontend"
+alias evbio="~/code/researchable/projects/ev-biotech/strainapp/"
 alias protyon="~/code/researchable/projects/protyon/"
 alias r-web="~/code/researchable/general/landingpages/landingpage-v2/"
 alias researchable="~/code/researchable"
 alias sdv="~/code/researchable/projects/sport-data-valley/base-platform/"
 alias sdv-native="~/code/researchable/projects/sport-data-valley/native-app/"
 alias syntho="~/code/syntho/"
-alias w-fe="~/code/researchable/projects/wyzser/composer/base-frontend/"
-alias w-be="~/code/researchable/projects/wyzser/composer/base-backend/"
+alias usc="~/code/researchable/projects/usc-chan/"
 alias whyzser="~/code/researchable/projects/wyzser/composer/"
 
 # Start Postgres
@@ -49,4 +52,4 @@ alias pg-stop="sudo service postgresql stop"
 alias clr="clear && printf '\e[3J'"
 
 # Login to Azure
-alias azlogin="az acr login --name researchable"
+alias az-acr="az acr login --name researchable" # Azure Container Registries

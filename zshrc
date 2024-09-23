@@ -22,7 +22,8 @@ export PATH="${HOME}/.rbenv/bin:${PATH}" # Needed for Linux/WSL
 type -a rbenv > /dev/null && eval "$(rbenv init -)"
 
 # Load pyenv (to manage your Python versions)
-# export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+type -a pyenv > /dev/null && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-init - 2> /dev/null)"
 # type -a pyenv > /dev/null && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-init - 2> /dev/null)" && RPROMPT+='[🐍 $(pyenv version-name)]'
 
 # Load nvm (to manage your node versions)
@@ -71,7 +72,7 @@ export BUNDLER_EDITOR=code
 export EDITOR=code
 
 # Set ipdb as the default Python debugger
-# export PYTHONBREAKPOINT=ipdb.set_trace
+export PYTHONBREAKPOINT=ipdb.set_trace
 
 # Start postgres from start
 # sudo /etc/init.d/postgresql start
