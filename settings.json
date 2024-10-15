@@ -92,9 +92,16 @@
   },
   "window.commandCenter": false,
   "files.autoSave": "afterDelay",
-  // "editor.formatOnSave": true
+  "editor.formatOnSave": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.tabSize": 4
-  }
+  },
+  "codesnap.transparentBackground": true,
+  "codesnap.backgroundColor": "transparent",
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0.25) 0px 4px 8px",
+  "codesnap.containerPadding": "1em",
+  "codesnap.showLineNumbers": false,
+  "codesnap.showWindowControls": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false
 }

@@ -28,7 +28,8 @@ alias ylint="yarn lint && yarn format"
 alias pylint="flake8 . && isort . && black ."
 
 # Shortcuts
-alias lww-current="~/code/pmkihara/lww/lww-1780"
+alias dotfiles="~/code/pmkihara/dotfiles"
+alias lww-current="~/code/pmkihara/lww/lww-1850"
 alias pmkihara="~/code/pmkihara"
 alias native-social-media="~/code/pmkihara/react-native-course/ReactNativeSocialMedia"
 
