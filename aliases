@@ -37,6 +37,7 @@ alias native-social-media="~/code/pmkihara/react-native-course/ReactNativeSocial
 # Project shortcuts
 alias ddash="~/code/researchable/projects/delta-dashboard/base-frontend"
 alias evbio="~/code/researchable/projects/ev-biotech/strainapp/"
+alias legal-mike="~/code/legal-mike/legal-mike-app"
 alias protyon="~/code/researchable/projects/protyon/"
 alias r-web="~/code/researchable/general/landingpages/landingpage-v2/"
 alias researchable="~/code/researchable"
@@ -44,7 +45,7 @@ alias sdv="~/code/researchable/projects/sport-data-valley/base-platform/"
 alias sdv-native="~/code/researchable/projects/sport-data-valley/native-app/"
 alias svc-auth="~/code/researchable/aukati/svc-auth/"
 alias syntho="~/code/syntho/"
-alias usc="~/code/researchable/projects/usc-chan/"
+alias usc="~/code/researchable/projects/usc-chan/composer"
 alias whyzser="~/code/researchable/projects/wyzser/composer/"
 
 # Start Postgres
