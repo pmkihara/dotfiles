@@ -91,7 +91,6 @@
     "editor.defaultFormatter": "rebornix.ruby"
   },
   "window.commandCenter": false,
-  "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
@@ -103,5 +102,6 @@
   "codesnap.containerPadding": "1em",
   "codesnap.showLineNumbers": false,
   "codesnap.showWindowControls": false,
-  "editor.unicodeHighlight.ambiguousCharacters": false
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "files.autoSave": "afterDelay"
 }
